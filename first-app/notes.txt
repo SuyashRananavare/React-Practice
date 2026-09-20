@@ -1,0 +1,7 @@
+export default function laptop(props) {
+    return (
+        <div>
+        <h2> Laptop name : {props.name} </h2>
+        
+    )
+}
