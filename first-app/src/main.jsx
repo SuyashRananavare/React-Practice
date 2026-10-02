@@ -1,5 +1,7 @@
 // import { createRoot } from 'react-dom/client'
 
+import { createRoot } from "react-dom/client";
+
 // let element = <h2>Hello World !!</h2>
 
 // createRoot(document.getElementById('root')).render(element);
@@ -44,8 +46,11 @@
 //     </>
 // );
 
-import { createRoot } from "react-dom/client";
-import App from "./App";
+let r = createRoot(document.getElementById('root'));
+r.render(<h2>Hello World!!</h2>)
 
-createRoot(document.getElementById('root')).render(<App />)
+// import { createRoot } from "react-dom/client";
+// import App from "./App";
+
+// createRoot(document.getElementById('root')).render(<App />)
 
